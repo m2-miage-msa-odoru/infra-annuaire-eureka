@@ -24,6 +24,9 @@ LABEL maintainer="fello.miage" \
       service="eureka-server" \
       version="0.0.1-SNAPSHOT"
 
+# Installation de curl pour le healthcheck
+RUN apk add --no-cache curl
+
 # Création d'un utilisateur non-root pour la sécurité
 RUN addgroup -S odoru && \
     adduser -S odoru -G odoru && \

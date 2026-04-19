@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>fello.miage</groupId>
-    <artifactId>appAnnuaireEureka</artifactId>
+    <artifactId>infra-annuaire-eureka</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>appAnnuaireEureka</name>
     <description>Annuaire eureka</description>
